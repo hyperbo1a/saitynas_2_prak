@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<getValstybinisNumerisReisasResponse xmlns="http://lt.viko.eif/arturas/springsoap/gen">
+    <ReisasList>
+        <Reisas id="1">
+            <adresas>Skardzio 90</adresas>
+            <uzsakovas>
+                <id>3</id>
+                <FirstName>Arturas</FirstName>
+                <Lastname>Sinkevic</Lastname>
+                <telefonoNumeris>+37087654322</telefonoNumeris>
+            </uzsakovas>
+            <vairuotojas>
+                <id>4</id>
+                <FirstName>Tomas</FirstName>
+                <Lastname>Mackonis</Lastname>
+                <telefonoNumeris>+37087654322</telefonoNumeris>
+            </vairuotojas>
+            <autobusas>
+                <spalva>Juodas</spalva>
+                <valstybinisNumeris>KGN:639</valstybinisNumeris>
+                <vietuSkaicius>28</vietuSkaicius>
+            </autobusas>
+        </Reisas>
+        <Reisas id="5">
+            <adresas>Rygos g 5</adresas>
+            <uzsakovas>
+                <id>7</id>
+                <FirstName>Arnas</FirstName>
+                <Lastname>Silaikis</Lastname>
+                <telefonoNumeris>+37098765432</telefonoNumeris>
+            </uzsakovas>
+            <vairuotojas>
+                <id>8</id>
+                <FirstName>Jonas</FirstName>
+                <Lastname>Trojanovskis</Lastname>
+                <telefonoNumeris>+37012345678</telefonoNumeris>
+            </vairuotojas>
+            <autobusas>
+                <spalva>Baltas</spalva>
+                <valstybinisNumeris>KGN:639</valstybinisNumeris>
+                <vietuSkaicius>28</vietuSkaicius>
+            </autobusas>
+        </Reisas>
+        <Reisas id="9">
+            <adresas>Lakunu 23</adresas>
+            <uzsakovas>
+                <id>11</id>
+                <FirstName>Arturas</FirstName>
+                <Lastname>Silaikis</Lastname>
+                <telefonoNumeris>+37098765431</telefonoNumeris>
+            </uzsakovas>
+            <vairuotojas>
+                <id>12</id>
+                <FirstName>Jonas</FirstName>
+                <Lastname>Kazlauskas</Lastname>
+                <telefonoNumeris>+37087654322</telefonoNumeris>
+            </vairuotojas>
+            <autobusas>
+                <spalva>Juodas</spalva>
+                <valstybinisNumeris>KGN:639</valstybinisNumeris>
+                <vietuSkaicius>20</vietuSkaicius>
+            </autobusas>
+        </Reisas>
+    </ReisasList>
+</getValstybinisNumerisReisasResponse>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="A4-portrait" page-height="297mm" page-width="210mm" margin-top="5mm" margin-bottom="5mm" margin-left="5mm" margin-right="5mm">
+            <fo:region-body margin-top="25mm" margin-bottom="20mm"/>
+            <fo:region-before region-name="xsl-region-before" extent="25mm" display-align="before" precedence="true"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    <fo:page-sequence master-reference="A4-portrait">
+        <fo:flow flow-name="xsl-region-body" border-collapse="collapse" reference-orientation="0">
+            <fo:block>
+                <fo:block font-weight="bold" text-align="center" color="darkgreen">Reisas Information</fo:block>
+                <fo:block font-size="16pt" font-family="Arial, sans-serif" space-after="6mm">
+                    <fo:block font-weight="bold" text-align="center">Reisas ID: 1</fo:block>
+                    <fo:block font-weight="bold" text-align="center">Address: Skardzio 90</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Client Information</fo:block>
+                    <fo:block text-align="center">Client ID: 3</fo:block>
+                    <fo:block text-align="center">Client First Name: Arturas</fo:block>
+                    <fo:block text-align="center">Client Last Name: Sinkevic</fo:block>
+                    <fo:block text-align="center">Client Phone Number: +37087654322</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Driver Information</fo:block>
+                    <fo:block text-align="center">Driver ID: 4</fo:block>
+                    <fo:block text-align="center">Driver First Name: Tomas</fo:block>
+                    <fo:block text-align="center">Driver Last Name: Mackonis</fo:block>
+                    <fo:block text-align="center">Driver Phone Number: +37087654322</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Bus Information</fo:block>
+                    <fo:block text-align="center">Bus Color: Juodas</fo:block>
+                    <fo:block text-align="center">Bus Registration Number: KGN:639</fo:block>
+                    <fo:block text-align="center">Number of Seats: 28</fo:block>
+                </fo:block>
+                <fo:block font-size="16pt" font-family="Arial, sans-serif" space-after="6mm">
+                    <fo:block font-weight="bold" text-align="center">Reisas ID: 5</fo:block>
+                    <fo:block font-weight="bold" text-align="center">Address: Rygos g 5</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Client Information</fo:block>
+                    <fo:block text-align="center">Client ID: 7</fo:block>
+                    <fo:block text-align="center">Client First Name: Arnas</fo:block>
+                    <fo:block text-align="center">Client Last Name: Silaikis</fo:block>
+                    <fo:block text-align="center">Client Phone Number: +37098765432</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Driver Information</fo:block>
+                    <fo:block text-align="center">Driver ID: 8</fo:block>
+                    <fo:block text-align="center">Driver First Name: Jonas</fo:block>
+                    <fo:block text-align="center">Driver Last Name: Trojanovskis</fo:block>
+                    <fo:block text-align="center">Driver Phone Number: +37012345678</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Bus Information</fo:block>
+                    <fo:block text-align="center">Bus Color: Baltas</fo:block>
+                    <fo:block text-align="center">Bus Registration Number: KGN:639</fo:block>
+                    <fo:block text-align="center">Number of Seats: 28</fo:block>
+                </fo:block>
+                <fo:block font-size="16pt" font-family="Arial, sans-serif" space-after="6mm">
+                    <fo:block font-weight="bold" text-align="center">Reisas ID: 9</fo:block>
+                    <fo:block font-weight="bold" text-align="center">Address: Lakunu 23</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Client Information</fo:block>
+                    <fo:block text-align="center">Client ID: 11</fo:block>
+                    <fo:block text-align="center">Client First Name: Arturas</fo:block>
+                    <fo:block text-align="center">Client Last Name: Silaikis</fo:block>
+                    <fo:block text-align="center">Client Phone Number: +37098765431</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Driver Information</fo:block>
+                    <fo:block text-align="center">Driver ID: 12</fo:block>
+                    <fo:block text-align="center">Driver First Name: Jonas</fo:block>
+                    <fo:block text-align="center">Driver Last Name: Kazlauskas</fo:block>
+                    <fo:block text-align="center">Driver Phone Number: +37087654322</fo:block>
+                </fo:block>
+                <fo:block font-weight="bold" margin-top="15pt" font-size="14pt">
+                    <fo:block font-weight="bold" text-align="center" color="darkgreen">Bus Information</fo:block>
+                    <fo:block text-align="center">Bus Color: Juodas</fo:block>
+                    <fo:block text-align="center">Bus Registration Number: KGN:639</fo:block>
+                    <fo:block text-align="center">Number of Seats: 20</fo:block>
+                </fo:block>
+            </fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>
